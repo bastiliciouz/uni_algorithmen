@@ -5,7 +5,7 @@ from time import process_time
 
 hash_dict = dict()
 m = 11                                  # Slotmenge
-schluessel = [10, 11, 12, 13, 14, 15, 16, 205, 18, 19, 20]  # Schlüssel-Generierung
+schluessel = [10, 22, 31, 4, 15, 28, 17, 88, 59]  # Schlüssel-Generierung
 
 
 def einfuegen(swert):
@@ -31,7 +31,8 @@ retrans = 0
 for s in schluessel:
     retrans += einfuegen(s)
 
-print(hash_dict)
+for entry in sorted(hash_dict.items()):
+    print(entry)
 print(f"Länge des Dictionaries:   {len(hash_dict)}")
 print(f"Retransmissions: {retrans}")
 
