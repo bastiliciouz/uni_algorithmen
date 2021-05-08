@@ -65,10 +65,7 @@ def fakultaet(z, m):
 
     return rueckgabe
 
-"""
-def merge_sort(menge):
 
-    return menge
 
 # Kontroll-Code
 a = [31, 29, 59, 26, 41, 58]
@@ -83,4 +80,3 @@ print(f"Fakultaet von {zahl}: {fakultaet (zahl, methode)}")
 
 c = [31, 29, 59, 26, 59, 58]
 print(merge_sort(c))
-"""
