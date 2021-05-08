@@ -77,6 +77,3 @@ print(f"Absteigend sortiert:  {insertion_sort_desc(b)}")
 zahl = 5
 methode = 2  # 1 = Normal, 2 = Math
 print(f"Fakultaet von {zahl}: {fakultaet (zahl, methode)}")
-
-c = [31, 29, 59, 26, 59, 58]
-print(merge_sort(c))
