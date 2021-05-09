@@ -2,6 +2,7 @@
 # -*-coding: utf-8-*-
 from random import randint
 
+
 def merge_sort(menge):              # Link zur Erklärung und Code: https://www.educative.io/edpresso/merge-sort-in-python
     global counter
     counter += 1
@@ -36,6 +37,7 @@ def merge_sort(menge):              # Link zur Erklärung und Code: https://www.
             menge[k] = rechts[j]    # Direkt Menge[k] = Rechts setzen (Leftover)
             j += 1
             k += 1
+
 
 # Kontroll-Code
 a = []
